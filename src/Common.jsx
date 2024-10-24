@@ -13,10 +13,10 @@ const Common = (props) => {
               <div className="row">
                 <div className="col-md-6 pt-5 order-2 order-lg-1 d-flex justify-content-center flex-column">
                   <h1>
-                    <strong>{props.name}</strong>
+                    <strong style={{ color: "white" }}>{props.name}</strong>
                     <strong className="brand-name"> MARKETING</strong>
                   </h1>
-                  <h2 className="my-3">
+                  <h2 className="my-3" style={{ color: "white" }}>
                     Quickly unlock where the problems are.
                   </h2>
                   <div className="mt-3">
@@ -40,7 +40,7 @@ const Common = (props) => {
                   </div>
 
                   <div className="mt-5">
-                    <h2>Beyond Interaction</h2>
+                    <h2 style={{ color: "white" }}>Beyond Interaction</h2>
                     <h3 style={{ color: "#87CEFA" }}>Subsidiaries: </h3>
                     <img src={subs} alt="subsidiaries" className="img-fluid" />
                   </div>

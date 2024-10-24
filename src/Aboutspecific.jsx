@@ -17,13 +17,13 @@ const Aboutspecific = (props) => {
                   <h1 style={{ color: "#00BFFF" }}>
                     <strong>{props.name}</strong>
                   </h1>
-                  <h2 className="my-3">
+                  <h2 className="my-3" style={{ color: "white" }}>
                     Digital marketing isn't what we do - it's{" "}
                     <strong className="brand-name">who we are</strong>
                   </h2>
 
-                  <div className="mt-3">
-                    <h2>
+                  <div className="mt-3" >
+                    <h2 style={{ color: "white" }}>
                       We provide agile marketing solutions that adapt to shifting trends and business demands. We go beyond conventional strategies to not only fill gaps but accelerate your growth.
                       <br />
                       <br />

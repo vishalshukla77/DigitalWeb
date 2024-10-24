@@ -25,12 +25,12 @@ const Execution = () => {
                 
                 {/* Text Column */}
                 <div className="col-12 col-md-6 d-flex justify-content-center flex-column pt-5">
-                  <h1>
+                  <h1 style={{ color: "white" }}>
                     <b>OUR EXECUTION</b> <strong style={{ color: "#00BFFF" }}>PROCESS</strong>
                   </h1>
-                  <h2 className="my-3">Crafting Success Through Structured Execution.</h2>
-                  <div className="mt-3">
-                    <h2>
+                  <h2 className="my-3" style={{ color: "white" }}>Crafting Success Through Structured Execution.</h2>
+                  <div className="mt-3" >
+                    <h2  style={{ color: "white" }}> 
                       This structured onboarding process aligns marketing strategies with the client's unique goals while fostering a collaborative partnership.
                       <br /><br />
                       By ensuring optimal use of the client's resources, it maximizes impact. Additionally, tailoring each step to the client's specific needs enhances the onboarding process's overall effectiveness.

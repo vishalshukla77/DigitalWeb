@@ -6,7 +6,7 @@ const Service=()=>{
   return (
     <>
       <div className="my-5">
-        <h1 className="text-center">Our Services</h1>
+        <h1 className="text-center">                <strong style={{ color: "#00BFFF" }}> OUR SERVICES AND SOLUTIONS </strong></h1>
       </div>
 <div className="container-fluid mb-5">
 <div className="row" >
@@ -17,7 +17,7 @@ const Service=()=>{
 {
 
   Sdata.map((val,ind)=>{
-    return <Card key={ind} imgsrc={val.imgsrc} title={val.title}/>
+    return <Card key={ind} imgsrc={val.imgsrc} title={val.title}  description={val.description} path={val.path}/>
   })
 }
 </div>
