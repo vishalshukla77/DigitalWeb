@@ -28,7 +28,7 @@ const Common = (props) => {
                       </NavLink>
 
                     
-                      <NavLink to={props.visit} className="btn-get-started">
+                      <NavLink to="/execution" className="btn-get-started">
                         {"Know Process"}
                       </NavLink>
 

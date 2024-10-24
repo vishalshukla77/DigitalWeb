@@ -8,6 +8,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Service from "./Service";
 import Strategic from "./StrategicAllies";
+import Execution from "./Execution";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route exact path="/service" element={<Service />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/strategic" element={<Strategic />} />
+        <Route exact path="/execution" element={<Execution />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </div>
